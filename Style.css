@@ -1,0 +1,292 @@
+* {
+    border: 0px solid black;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: purple;
+}
+#TitleDiv{
+    font-family: 'Supermercado One', cursive;
+    text-align: center;
+    position: relative;
+    background-color: gold;
+    color: black;
+    height: 130px;
+    padding-top: 10px;
+}
+#LeScammers{
+    font-size: 100px;
+    text-align: center;
+    margin-top: 3px
+}
+#Logo{
+    border-radius: 100%;
+    float: left;
+    width: 120px;
+    height: 120px;
+}
+#MenuDiv{
+    font-family: 'Supermercado One', cursive;
+    font-size: 40px;
+    height: 130px;
+    color: black;
+    position: relative;
+    background-color: gold;
+}
+.Header{
+    text-decoration-line: underline;
+    display: inline;
+    float: left;
+    text-align: center;
+    padding-right: 91.8px;
+    padding-left: 91.7px;
+}
+#LoLTrailer{
+    width: 854px;
+    height: 480px;
+}
+#TeamPic{
+    width: 100%;
+    float: left;
+}
+
+#peepDiv {
+    width: 100%;
+}
+
+#PepeWithRep{
+    position: relative;
+    width: 40%;
+    display: inline-block;
+    margin-left: 90px;
+    margin-top: 90px;
+}
+#PepeWithReptxt{
+    font-family: 'Supermercado One', cursive;
+    position: relative;
+    width: 700px;
+    margin-left: 25px;
+   display: inline-block;
+    color: white;
+    font-size: 20px;
+}
+#SpaghetDiv{
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+#SpaghetVictory{
+    position: relative;
+    padding-left: 90px;
+    margin-top: 90px;
+    width: 40%;
+    clear: both;
+    display: inline-block;
+}
+#SpaghetVictorytxt{
+    font-family: 'Supermercado One', cursive;
+    position: relative;
+    font-size: 20px;
+    width: 700px;
+    margin-left: 25px;
+    display: inline-block;
+    color: white;
+}
+#DreamhackDiv{
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+#Dreamhack{
+    position: relative;
+    padding-left: 90px;
+    margin-top: 90px;
+    width: 40%;
+    clear: both;
+    display: inline-block;
+}
+#Dreamhacktxt{
+    font-family: 'Supermercado One', cursive;
+    position: relative;
+    font-size: 20px;
+    width: 700px;
+    margin-left: 25px;
+    display: inline-block;
+    color: white;
+}
+a:link{
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: purple;
+    text-decoration: underline;
+}
+
+a:active{
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+h4 {
+    font-size: 45px;
+    width: 70px;
+    font-family: 'Supermercado One', cursive;
+    border-radius: 15%;
+    margin-left: 130px;
+    background-color: rgba(0, 0, 0, 0.31);
+    border: 3px solid black;
+    text-align: center;
+}
+.TableD {
+    width: 355px;
+    text-align: center;
+    border: 5px solid black;
+    position: relative;
+}
+.MerchP{
+    font-family: 'Supermercado One', cursive;
+    text-align: center;
+    font-size: 25px;
+}
+.LeMemersMerch{
+    width: 250px;
+}
+#LeMemersMouse{
+    width: 300px;
+}
+#LeMemersKeyboard{
+    width: 300px;
+}
+.CrewMembers{
+    display: inline;
+    font-family: 'Supermercado One', cursive;
+    text-align: center;
+    float: left;
+    padding-right: 95px;
+    padding-left: 95px;
+    color: white;
+}
+h1{
+    font-size: 50px;
+    font-family: 'Supermercado One', cursive;
+    text-align: center;
+    color: white;
+}
+#HomepageP{
+    font-size: 30px;
+    font-family: 'Supermercado One', cursive;
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+    line-height: 1.5;
+}
+#LoLVid{
+    width: 854px;
+    margin: auto;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.slideshow-container img{
+    width: 100%;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
